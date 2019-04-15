@@ -1,5 +1,5 @@
-# kaggle_competition_template
-Template for Kaggle Projects
+# DeviantArt-Recs
+Recommendation System for DeviantArt Personalized Homepage
 
 ## Setup package
 1. Setup a new python virtual environment:
@@ -11,19 +11,3 @@ source activate <env_name>
 ```bash
 pip install -r requirements
 ```
-3. create data folder and download data
-```bash
-mkdir input/<competition_name>
-cd input/<competition_name>
-kaggle competitions download -c <competition_name>
-cd ../../
-```
-4. create a folder for kernel, create and push a kernel
-```bash
-mkdir <kernel_name>
-cd <kernel_name>
-kaggle kernels init -p ./
-# TODO: create a notebook and modify the kernel metadata
-kaggle kernels push <use_name>/<kernel_name> ./
-```
-
