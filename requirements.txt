@@ -11,3 +11,6 @@ tqdm==4.28.1
 pydot==1.2.3
 graphviz
 h5py
+implicit==0.3.8
+annoy
+surprise
